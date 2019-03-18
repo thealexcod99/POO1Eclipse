@@ -40,11 +40,11 @@ public class EcuacionSegundoGrado {
 	}
 	
 	public float calcularX1() {
-		return (float) ((b + Math.sqrt(b * b - 4 * a * c)) / 2 * a);
+		return (float) ((b + Math.sqrt(b * b - 4 * a * c)) / (2 * a));
 	}
 	
 	public float calcularX2() {
-		return (float) ((-b - Math.sqrt(b * b - 4 * a * c)) / 2 * a);
+		return (float) ((-b - Math.sqrt(b * b - 4 * a * c)) / (2 * a));
 	}
 
 	@Override

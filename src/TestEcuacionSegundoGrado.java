@@ -3,11 +3,11 @@ import java.util.Scanner;
 public class TestEcuacionSegundoGrado {
 
 	public static void main(String[] args) {
-		
+		 
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Solucionador de ecuaciones de 2º grado.");
-		System.out.println("Forma de la ecuación: ax[2] + bx + c = 0");
+		System.out.println("Forma de la ecuación: ax² + bx + c = 0");
 		System.out.println("");
 		
 		System.out.print("Introduce el valor a: ");
